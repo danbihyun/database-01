@@ -1,0 +1,93 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 4,
+    "databaseName": "test",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "KE9TbaOab4td8Hblv8LFg"
+    ],
+    "relationshipIds": [],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "KE9TbaOab4td8Hblv8LFg": {
+        "id": "KE9TbaOab4td8Hblv8LFg",
+        "name": "test",
+        "comment": "연습",
+        "columnIds": [
+          "TS08gGMdVJtyoBIf9cal8"
+        ],
+        "seqColumnIds": [
+          "TS08gGMdVJtyoBIf9cal8"
+        ],
+        "ui": {
+          "x": 58,
+          "y": 70,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1758604246752,
+          "createAt": 1758604210201
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "TS08gGMdVJtyoBIf9cal8": {
+        "id": "TS08gGMdVJtyoBIf9cal8",
+        "tableId": "KE9TbaOab4td8Hblv8LFg",
+        "name": "name",
+        "comment": "연습명칭",
+        "dataType": "VARCHAR",
+        "default": "",
+        "options": 0,
+        "ui": {
+          "keys": 0,
+          "widthName": 60,
+          "widthComment": 60,
+          "widthDataType": 60,
+          "widthDefault": 60
+        },
+        "meta": {
+          "updateAt": 1758604240617,
+          "createAt": 1758604223609
+        }
+      }
+    },
+    "relationshipEntities": {},
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  }
+}
